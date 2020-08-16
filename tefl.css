@@ -16,7 +16,7 @@
 @import url('css/facts.css');
 
 /* Importing layouts */
-@import url("layouts/layouts.css");
+@import url("css/layouts/layouts.css");
 
 body {
  font-family: 'Quicksand', sans-serif;
