@@ -1,15 +1,22 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
-@import url('css/navbar.css');
-@import url('css/intro.css');
-@import url('css/signup.css');
-@import url('css/qualify.css');
-@import url('css/testimonies.css');
-@import url('css/facts.css');
-@import url('css/taste.css');
+/* Importing components */
 @import url('css/about.css');
 @import url('css/contact.css');
-@import url('css/footer.css');
 @import url('css/containers.css');
+@import url('css/footer.css');
+@import url('css/intro.css');
+@import url('css/navbar.css');
+@import url('css/qualify.css');
+@import url('css/signup.css');
+@import url('css/taste.css');
+@import url('css/testimonies.css');
+
+@import url('css/facts.css');
+
+/* Importing layouts */
+@import url("layouts/layouts.css");
 
 body {
  font-family: 'Quicksand', sans-serif;
@@ -19,4 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
  font-weight: 500;
+}
+.padded {
+  padding: 30px 0;
 }
